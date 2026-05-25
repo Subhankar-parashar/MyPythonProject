@@ -35,39 +35,40 @@ for i in range(0, len(questions)):
         print("correct answer")
         if(i == 0):
             money = 1000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
         elif(i == 1):
             money = 5000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
 
         elif(i == 2):
             money = 10000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
 
         elif(i == 3):
             money = 20000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
 
         elif(i == 4):
             money = 40000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
         
         elif(i == 5):
             money = 80000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
         
         elif(i == 6):
             money = 160000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
         
         elif(i == 7):
             money = 320000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
         
         elif(i == 8):
             money = 640000
-            messagebox.showinfo("Result", f"Answer = {money}")
+            messagebox.showinfo("Result", f"Your Prize = {money}")
     else:
         print("wrong answer")
+        messagebox.showinfo("Result", f"Your Prize = {money}")
         break
 messagebox.showinfo("Result", f"Your take home money is: ₹{money}")
